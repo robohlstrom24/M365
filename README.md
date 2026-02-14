@@ -31,6 +31,6 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   ![2](images/block.sign.in.png)
   _________________________________
 
-  ![3](images/block.sign.in.2.png)
+  ![3](images/block.sign.in2.png)
   
 </details>
