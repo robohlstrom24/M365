@@ -8,4 +8,7 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 
 <details>
   <summary> Employee Onboarding (Create User, Assign License, Validate Mailbox </summary>
+
+  ![1](images/create.user.png)
+  ____________________________
 </details>
