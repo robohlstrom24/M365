@@ -6,6 +6,8 @@
 
 This project demonstrates foundational Microsoft 365 (M365) skills modeled after an IT Support environment. Proficiency with tier 1 IT support tasks is demonstrated with screenshots (click the > dropdowns to view). 
 
+## Tier 1 Job Duties
+
 <details>
   <summary> Employee Onboarding ( Create User, Assign License, Validate Mailbox ) </summary>
 
@@ -36,11 +38,20 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 </details>
 
 <details> 
-  <summary>Access Provisioning Through Groups</summary>
+  <summary>Access Provisioning Through Groups (RBAC) </summary>
 
   ![1](images/create.security.group.png)
   _________________________________________
 
   ![2](images/add.user.to.group.png)
   
+</details>
+
+<details>
+  <summary>Create Shared Mailbox and Assign Access </summary>
+
+  ![1](images/create.shared.mailbox.png)
+  ________________________________________
+
+  ![2](images/mailbox.verification.png)
 </details>
