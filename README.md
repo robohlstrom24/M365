@@ -21,3 +21,16 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   ![4](images/mailbox.verification.png)
   
 </details>
+
+<details>
+  <summary> Password Reset & Sign-in Block </summary>
+
+  ![1](images/password.reset.png)
+  _________________________________
+
+  ![2](images/block.sign.in.png)
+  _________________________________
+
+  ![3](images/block.sign.in.2.png)
+  
+</details>
