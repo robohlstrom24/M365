@@ -34,3 +34,13 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   ![block](images/block.sign.in2.png)
   
 </details>
+
+<details>
+  <summary>Access Provisioning Through Groups</summary>
+
+  ![1](images/create.security.group.png)
+  _________________________________________
+
+  ![2](images/add.user.to.group.png)
+  
+</details>
