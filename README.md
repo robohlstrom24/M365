@@ -11,4 +11,13 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 
   ![1](images/create.user.png)
   ____________________________
+
+  ![2](images/assign.license.png)
+  _______________________________
+
+  ![3](images/user.active.png)
+  ________________________________
+
+  ![4](images/mailbox.verification.png)
+  
 </details>
