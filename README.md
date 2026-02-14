@@ -53,5 +53,5 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   ![1](images/create.shared.mailbox.png)
   ________________________________________
 
-  ![2](images/mailbox.verification.png)
+  ![2](images/assign.user.access.png)
 </details>
