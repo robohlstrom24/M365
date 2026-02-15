@@ -1,6 +1,4 @@
-# Microsoft 365 Lab
-
-(project in progress)
+![1](images/m365.banner.jpg)
 
 ## Operational Relevance
 
