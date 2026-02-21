@@ -2,7 +2,7 @@
 
 ## Operational Relevance
 
-This project demonstrates foundational Microsoft 365 (M365) skills modeled after an IT Support environment. Proficiency with Tier-1 IT support tasks is demonstrated with screenshots (click the > dropdowns to view). Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.    
+This project demonstrates foundational Microsoft 365 (M365) skills modeled after an IT Support environment. Proficiency with Tier-1 and Tier-2 IT support tasks is demonstrated with screenshots (click the > dropdowns to view). Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.    
 
 (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
@@ -60,7 +60,7 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 
 <details>
   
-  <summary>Troubleshooting Email Malfunction AFter Inadvertant Licensing Group Removal</summary>
+  <summary>Troubleshooting Email Malfunction After Inadvertant Licensing Group Removal</summary>
 
 **Scenario:** 
 A user's licensing group is inadvertantly removed during department/role change, offboarding/reboarding error, or automation error with a bulk group cleanup script
