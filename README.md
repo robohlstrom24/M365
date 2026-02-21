@@ -65,24 +65,24 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 **Scenario:** 
 A user's licensing group is inadvertantly removed during department/role change, offboarding/reboarding error, or automation error with a bulk group cleanup script
 
-![1](images/email.licenses/error.full.png)
+![1](images/email.licences/error.full.png)
 
 __________________________________________
 
-![2](images/email.licenses/no.license.assigned.png)
+![2](images/email.licences/no.license.assigned.png)
 
 _________________________________________________
 
-![3](images/email.licenses/no.group.membership.png)
+![3](images/email.licences/no.group.membership.png)
 
 ___________________________________________________
 
-![4](images/email.licenses/user.added.back.png)
+![4](images/email.licences/user.added.back.png)
 _________________________________________________
 
-![5](images/email.licenses/license.inherited.png)
+![5](images/email.licences/license.inherited.png)
 __________________________________________________
 
-![6](images/email.licenses/email.works.png)
+![6](images/email.licences/email.works.png)
 
 </details>
