@@ -2,7 +2,9 @@
 
 ## Operational Relevance
 
-This project demonstrates foundational Microsoft 365 (M365) skills modeled after an IT Support environment. Proficiency with Tier-1 IT support tasks is demonstrated with screenshots (click the > dropdowns to view). 
+This project demonstrates foundational Microsoft 365 (M365) skills modeled after an IT Support environment. Proficiency with Tier-1 IT support tasks is demonstrated with screenshots (click the > dropdowns to view). Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.    
+
+(see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
 ## Tier-1 Job Duties
 
