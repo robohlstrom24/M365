@@ -75,7 +75,7 @@ __________________________________________
 
 _________________________________________________
 
-**User not a member of security group
+**User not a member of security group**
 
 ![3](images/email.licences/no.group.membership.png)
 
