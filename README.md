@@ -69,20 +69,21 @@ A user's licensing group is inadvertantly removed during department/role change,
 
 __________________________________________
 
+**User not assigned any licenses**
 ![2](images/email.licences/no.license.assigned.png)
 
 _________________________________________________
-
+**User not a member of security group
 ![3](images/email.licences/no.group.membership.png)
 
 ___________________________________________________
-
+**User added back to security group**
 ![4](images/email.licences/user.added.back.png)
 _________________________________________________
-
+**User inherits license from security group**
 ![5](images/email.licences/license.inherited.png)
 __________________________________________________
-
+**Email functionality restored**
 ![6](images/email.licences/email.works.png)
 
 </details>
