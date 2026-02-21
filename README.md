@@ -56,22 +56,28 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   ![2](images/assign.user.access.png)
 </details>
 
-## Tier-1 Job Duties
+## Tier-2 Job Duties
 
 <details>
   <summary>Troubleshooting Email Malfunction AFter Licensing Group Removal</summary>
 
 ## Scenario: A user's licensing group is inadvertantly removed during department/role change, offboarding/reboarding error, or automation error with a bulk group cleanup script
 
-![error](images/email.licenses/error.full.png)
+![1](images/email.licenses/error.full.png)
 __________________________________________
-![no.license](images/email.licenses/no.license.assigned.png)
+
+![2](images/email.licenses/no.license.assigned.png)
 _________________________________________________
+
 ![3](images/email.licenses/no.group.membership.png)
 ___________________________________________________
+
 ![4](images/email.licenses/user.added.back.png)
 _________________________________________________
+
 ![5](images/email.licenses/license.inherited.png)
 __________________________________________________
+
 ![6](images/email.licenses/email.works.png)
+
 </details>
