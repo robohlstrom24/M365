@@ -62,15 +62,19 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   
   <summary>Troubleshooting Email Malfunction AFter Inadvertant Licensing Group Removal</summary>
 
-**Scenario** A user's licensing group is inadvertantly removed during department/role change, offboarding/reboarding error, or automation error with a bulk group cleanup script
+**Scenario:** 
+A user's licensing group is inadvertantly removed during department/role change, offboarding/reboarding error, or automation error with a bulk group cleanup script
 
 ![1](images/email.licenses/error.full.png)
+
 __________________________________________
 
 ![2](images/email.licenses/no.license.assigned.png)
+
 _________________________________________________
 
 ![3](images/email.licenses/no.group.membership.png)
+
 ___________________________________________________
 
 ![4](images/email.licenses/user.added.back.png)
