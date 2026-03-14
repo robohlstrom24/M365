@@ -134,6 +134,11 @@ ________________________________________________
 
 </details>
 
+**Troubleshooting Activities:**
+
+Steve could not initially access the server remotely after promotion despite GPO application granting access. Root cause: IT-SysAdmins AD group was not added to the server’s local Remote Desktop Users group, preventing RDP access despite the correct domain permissions. 
+(see ITSM-style trouhleshooting ticket: [Troubleshooting Journal T-0015](https://github.com/robohlstrom24/troubleshooting-journal) ) 
+
 **Lessons Learned:**
 
 -Identity changes span multiple layers (AD groups, local server permissions, cloud RBAC)
