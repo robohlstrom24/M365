@@ -75,7 +75,17 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
   </details>
 
   <details>
-    <summary>Phase 2: Employee promotion</summary>
+    <summary>Phase 2: Security Controls</summary>
+
+ ![4](images/capstone1/04_create-conditional-access.png)
+ _______________________________________________________
+ ![5](images/capstone1/05_conditional-access-applied.png)
+ ________________________________________________________
+ ![6](images/capstone1/06_Intune-policy-config/png)
+ _______________________________________________________
+ ![7](images/capstone1/07_Intune-applied-Outlook.png)
+ _______________________________________________________
+ ![9](images/capstone1/09_copy-paste-blocked)
     
   </details>
   
