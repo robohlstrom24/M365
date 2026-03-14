@@ -106,8 +106,41 @@ ______________________________________________
 
 </details>
 
+<details>
+  <summary>Phase 4: Medical leave</summary>
+
+![16](images/capstone1/16_leave-Entra-disabled.png)
+___________________________________________________
+![17](images/capstone1/17_leave-AD-disabled.png)
+_____________________________________________________
+![18](images/capstone1/18_M365-lock-confirmed.png)
+______________________________________________________
+![19](images/capstone1/19_AD-lock-confirmed.png)
+____________________________________________________
+![20](images/capstone1/20_return-M365-unlocked.png)
+_______________________________________________________
+![21](images/capstone1/21_return-AD-unlocked.png)
+
 </details>
 
+<details>
+  <summary>Phase 5: Termination (offboarding)
+
+![22](images/capstone1/22_AD-group-removal.png)
+_______________________________________________
+![23](images/capstone1/23_AD-disable-user.png)
+________________________________________________
+![24](images/capstone1/24_Entra-revoke-sessions.png)
+
+</details>
+
+**Lessons Learned:**
+-Identity changes span multiple layers (AD groups, local server permissions, cloud RBAC)
+-Lifecycle management is a security control, ensuring access is granted, modified, and revoked appropriately as employee roles change
+-Hybrid environments require coordination between on-prem identity systems and cloud identity platforms 
+
+</details>
+__________________________________________________________________________________
 <details>
   
   <summary>Troubleshooting Email Malfunction After Inadvertant Licensing Group Removal</summary>
