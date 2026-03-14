@@ -81,7 +81,7 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
  _______________________________________________________
  ![5](images/capstone1/05_conditional-access-applied.png)
  ________________________________________________________
- ![6](images/capstone1/06_Intune-policy-config/png)
+ ![6](images/capstone1/06_Intune-policy-config.png)
  _______________________________________________________
  ![7](images/capstone1/07_Intune-applied-Outlook.png)
  _______________________________________________________
@@ -124,7 +124,7 @@ _______________________________________________________
 </details>
 
 <details>
-  <summary>Phase 5: Termination (offboarding)
+  <summary>Phase 5: Termination (offboarding)</summary>
 
 ![22](images/capstone1/22_AD-group-removal.png)
 _______________________________________________
@@ -135,12 +135,16 @@ ________________________________________________
 </details>
 
 **Lessons Learned:**
+
 -Identity changes span multiple layers (AD groups, local server permissions, cloud RBAC)
+
 -Lifecycle management is a security control, ensuring access is granted, modified, and revoked appropriately as employee roles change
+
 -Hybrid environments require coordination between on-prem identity systems and cloud identity platforms 
 
 </details>
-__________________________________________________________________________________
+
+
 <details>
   
   <summary>Troubleshooting Email Malfunction After Inadvertant Licensing Group Removal</summary>
