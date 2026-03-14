@@ -59,6 +59,29 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 ## Tier-2 Job Duties
 
 <details>
+  <summary>Hybrid Identity Lifecycle (AD + M365 + Entra + Intune) - Joiner | Mover | Leaver</summary>
+
+**Project summary: Employee Steve Smith is hired as an IT Support Specialist, promoted to a Systems Administrator, placed on medical leave, brought back from leave, and then terminated. Identity and access management principles are applied to each change across on-premises and cloud platforms (least privilege, RBAC, MFA authentication controls, data protection for BYOD).**
+
+  <details>
+    <summary>Phase 1: Employee onboarding</summary>
+
+  ![1](images/capstone1/01_AD-User-Created.png)
+  ________________________________________________
+  ![2](images/capstone1/02_MFA-enabled.png)
+  ______________________________________________
+  ![3](images/capstone1/03_outlook-login.png)
+  
+  </details>
+
+  <details>
+    <summary>Phase 2: Employee promotion</summary>
+    
+  </details>
+  
+</details>
+
+<details>
   
   <summary>Troubleshooting Email Malfunction After Inadvertant Licensing Group Removal</summary>
 
