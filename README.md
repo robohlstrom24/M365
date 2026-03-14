@@ -85,10 +85,27 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
  _______________________________________________________
  ![7](images/capstone1/07_Intune-applied-Outlook.png)
  _______________________________________________________
- ![9](images/capstone1/09_copy-paste-blocked)
+ ![9](images/capstone1/09_copy-paste-blocked.png)
     
   </details>
   
+<details>
+  <summary>Phase 3: Employee promotion</summary>
+
+![10](images/capstone1/10_add-admin-role.png)
+________________________________________________
+![11](images/capstone1/11_move-to-sysadmin.png)
+__________________________________________________
+![12](images/capstone1/12_RDP-access-control.png)
+____________________________________________________
+![13](images/capstone1/13_GPO-verified.png)
+________________________________________________
+![14](images/capstone1/14_RDP-deny-confirm.png)
+______________________________________________
+![15](images/capstone1/15_RDP-success.png)
+
+</details>
+
 </details>
 
 <details>
