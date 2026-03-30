@@ -190,3 +190,24 @@ __________________________________________________
 ![6](images/email.licences/email.works.png)
 
 </details>
+
+<details>
+  <summary>Troubleshooting File Access Denial (SharePoint)</summary>
+
+  **Scenario:** A file is shared via direct link, but due to misconfigured file-level permissions and broken inheritance, the user is unable to access or even see the file within the SharePoint document library.
+
+  ![1](images/SharePoint-Denial/1-hook.png)
+
+  ![2](images/SharePoint-Denial/2-check-permissions.png)
+
+  ![3](images/SharePoint-Denial/3-unique-permissions.png)
+
+  ![4](images/SharePoint-Denial/4-grant-permissions.png)
+
+  ![5](images/SharePoint-Denial/5-file-visible.png)
+
+  **Lessons Learned:**
+- Limited Access does not grant usability, it often only allows navigation to a resource, not interaction
+- Always verify inheritance vs. unique permissions, as file-level overrides can silently block access even when folder access appears correct
+
+</details>
