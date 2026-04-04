@@ -1,4 +1,4 @@
-![1](images/M365.banner3.png)
+![1](images/M365-banner3.png)
 
 ## Operational Relevance
 
