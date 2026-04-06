@@ -234,7 +234,7 @@ ____________________________________________
 ![10](images/Lab1/10-no-edit-permissions.png)
 
 **Lessons Learned:**
-- Breaking SharePoint permission inheritance allows precise resource control
+- Breaking SharePoint permission inheritance allows for precise resource control
 - Secure sharing depends on both identity and link configuration
 - Utilizing RBAC and group-based access enables superior scaling compared to direct user permissions 
 
