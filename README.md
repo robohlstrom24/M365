@@ -211,3 +211,35 @@ __________________________________________________
 - Always verify inheritance vs. unique permissions, as file-level overrides can silently block access even when folder access appears correct
 
 </details>
+
+<details>
+  <summary>SharePoint Controlled Link Distribution to Non-Tenant User</summary>
+
+  **Scenario: A company hires an external contractor to collaborate on an internal project. The contractor requires edit access to a specific SharePoint file, while access to all other internal resources must remain restricted.**
+
+[1](images/Lab1/1-invite-external-user.png)
+___________________________________________
+[2](images/Lab1/2-groups-created.png)
+__________________________________________
+[3](images/Lab1/3-LinkedIn-hook.png)
+__________________________________________
+[4](images/Lab1/4-stop-inheriting-permissions.png)
+______________________________________________
+[5](images/Lab1/5-add-groups.png)
+_____________________________________________
+[6](images/Lab1/6-LinkedIn-hook2.png)
+__________________________________________
+[7](images/Lab1/7-share-outside-org.png)
+__________________________________________
+[8](images/Lab1/8-share-link-validation.png)
+____________________________________________
+[9](images/Lab1/9-LinkedIn-hook3.png)
+_________________________________________
+[10](images/Lab1/10-no-edit-permissions.png)
+
+**Lessons Learned:**
+- Breaking SharePoint permission inheritance allows precise resource control
+- Secure sharing depends on both identity and link configuration
+- Utilizing RBAC and group-based access enables superior scaling compared to direct user permissions 
+
+</details>
