@@ -192,7 +192,7 @@ __________________________________________________
 </details>
 
 <details>
-  <summary>Troubleshooting File Access Denial (SharePoint)</summary>
+  <summary>Troubleshooting SharePoint File Access Denial</summary>
 
   **Scenario:** A file is shared via direct link, but due to misconfigured file-level permissions and broken inheritance, the user is unable to access or even see the file within the SharePoint document library.
 
@@ -227,13 +227,14 @@ ______________________________________________
 _____________________________________________
 ![6](images/Lab1/6-LinkedIn-hook2.png)
 __________________________________________
-![8](images/Lab1/8-share-link-validation.png)
-____________________________________________
-![7](images/Lab1/7-share-outside-org.png)
-__________________________________________
-
 ![9](images/Lab1/9-LinkedIn-hook3.png)
 _________________________________________
+![7](images/Lab1/7-share-outside-org.png)
+__________________________________________
+![8](images/Lab1/8-share-link-validation.png)
+____________________________________________
+
+
 ![10](images/Lab1/10-no-edit-permissions.png)
 
 **Lessons Learned:**
