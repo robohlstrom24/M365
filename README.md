@@ -217,8 +217,6 @@ __________________________________________________
 
   **Scenario: A company hires an external contractor to collaborate on an internal project. The contractor requires edit access to a specific SharePoint file, while access to all other internal resources must remain restricted.**
 
-![1](images/Lab1/1-invite-external-user.png)
-___________________________________________
 ![2](images/Lab1/2-groups-created.png)
 __________________________________________
 ![4](images/Lab1/4-stop-inheriting-permissions.png)
@@ -227,10 +225,12 @@ ______________________________________________
 _____________________________________________
 ![6](images/Lab1/6-LinkedIn-hook2.png)
 __________________________________________
-![7](images/Lab1/7-share-outside-org.png)
-__________________________________________
+![1](images/Lab1/1-invite-external-user.png)
+___________________________________________
 ![8](images/Lab1/8-share-link-validation.png)
 ____________________________________________
+![7](images/Lab1/7-share-outside-org.png)
+__________________________________________
 ![10](images/Lab1/10-no-edit-permissions.png)
 
 **Lessons Learned:**
