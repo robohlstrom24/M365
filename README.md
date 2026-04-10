@@ -219,10 +219,10 @@ __________________________________________________
 
 ![2](images/Lab1/2-groups-created.png)
 __________________________________________
-![4](images/Lab1/4-stop-inheriting-permissions.png)
-______________________________________________
 ![5](images/Lab1/5-add-groups.png)
 _____________________________________________
+![4](images/Lab1/4-stop-inheriting-permissions.png)
+______________________________________________
 ![6](images/Lab1/6-LinkedIn-hook2.png)
 __________________________________________
 ![1](images/Lab1/1-invite-external-user.png)
