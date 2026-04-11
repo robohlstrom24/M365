@@ -225,12 +225,12 @@ ___________________________________________
 _____________________________________________
 ![4](images/Lab1/3.1-break-inheritance.png)
 ______________________________________________
+![7](images/Lab1/7-share-outside-org.png)
+__________________________________________
 ![6](images/Lab1/6-LinkedIn-hook2.png)
 __________________________________________
 ![8](images/Lab1/8-share-link-validation.png)
 ____________________________________________
-![7](images/Lab1/7-share-outside-org.png)
-__________________________________________
 ![10](images/Lab1/10-no-edit-permissions.png)
 
 **Lessons Learned:**
