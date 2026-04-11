@@ -219,12 +219,12 @@ __________________________________________________
 
 ![2](images/Lab1/2-groups-created.png)
 __________________________________________
+![1](images/Lab1/1-invite-external-user.png)
+___________________________________________
 ![5](images/Lab1/2.1.1-add-group.png)
 _____________________________________________
 ![4](images/Lab1/3.1-break-inheritance.png)
 ______________________________________________
-![1](images/Lab1/1-invite-external-user.png)
-___________________________________________
 ![6](images/Lab1/6-LinkedIn-hook2.png)
 __________________________________________
 ![8](images/Lab1/8-share-link-validation.png)
