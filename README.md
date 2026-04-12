@@ -235,6 +235,11 @@ __________________________________________
 ____________________________________________
 ![10](images/Lab1/10-no-edit-permissions.png)
 
+**Lab Troubleshooting**
+Permissions inadvertantly assigned at the library-level instead of file-level, resulting in overly-broad access.
+
+  See: [Troubleshooting Journal T-0018](https://github.com/robohlstrom24/troubleshooting-journal) for ITSM-style troubleshooting ticket
+  
 **Lessons Learned:**
 - Breaking SharePoint permission inheritance allows for precise resource control
 - Secure sharing depends on both identity and link configuration
