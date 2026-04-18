@@ -194,8 +194,8 @@ __________________________________________________
 <details>
   <summary>Troubleshooting SharePoint File Access Denial</summary>
 
-  **Scenario:** A file is shared via direct link, but due to misconfigured file-level permissions and broken inheritance, the user is unable to access or even see the file within the SharePoint document library.
-
+  **Scenario:** A user shared a file with "Specific People" outside the RBAC-aligned security group. This action created a unique file-level ACL, broke inheritance, and unintentionally removed access for authorized users who previously had permissions through security group membership.
+  
   ![1](images/SharePoint-Denial/1-hook.png)
 
   ![2](images/SharePoint-Denial/2-check-permissions.png)
