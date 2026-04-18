@@ -192,27 +192,6 @@ __________________________________________________
 </details>
 
 <details>
-  <summary>Troubleshooting SharePoint File Access Denial</summary>
-
-  **Scenario:** A user shared a file with "Specific People" outside the RBAC-aligned security group. This action created a unique file-level ACL, broke inheritance, and unintentionally removed access for authorized users who previously had permissions through security group membership.
-  
-  ![1](images/SharePoint-Denial/1-hook.png)
-
-  ![2](images/SharePoint-Denial/2-check-permissions.png)
-
-  ![3](images/SharePoint-Denial/3-unique-permissions.png)
-
-  ![4](images/SharePoint-Denial/4-grant-permissions.png)
-
-  ![5](images/SharePoint-Denial/5-file-visible.png)
-
-  **Lessons Learned:**
-- Limited Access does not grant usability, it often only allows navigation to a resource, not interaction
-- Always verify inheritance vs. unique permissions, as file-level overrides can silently block access even when folder access appears correct
-
-</details>
-
-<details>
   <summary>SharePoint Controlled Link Distribution to Non-Tenant User</summary>
 
   **Scenario: A company hires an external contractor to collaborate on an internal project. The contractor requires edit access to a specific SharePoint file, while access to all other internal resources must remain restricted.**
