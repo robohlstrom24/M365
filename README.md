@@ -150,7 +150,9 @@ __________________________________________________
 **Lessons Learned:**
 
 -M365 group membership acts as the source of truth for service provisioning
+
 -Always investigate the assignment source (group vs. direct) before making changes
+
 -Assigning licenses via group membership instead of directly helps to avoid inconsistent access, orphaned licenses, and unnecessary licensing costs
 
 </details>
