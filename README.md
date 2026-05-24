@@ -6,6 +6,14 @@ This project demonstrates foundational Microsoft 365 (M365) skills modeled after
 
 (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
+## Job Skills Demonstrated:
+
+- Hybrid identity lifecycle management 
+- Conditional Access policy configuration and MFA enforcement
+- SharePoint permissions management 
+- Entra B2B external identity and secure contractor access provisioning
+- M365 license troubleshooting via group-based license inheritance
+  
 ## Tier-2 Job Duties
 
 <details>
