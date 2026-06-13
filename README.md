@@ -205,6 +205,29 @@ Tools Utilized:
 
 **Lab Build:**
 
+![1](images/SSO/1-SSO.png)
+_____________________________
+![2](images/SSO/2-SSO.png)
+___________________________
+![3](images/SSO/3-SSO.png)
+___________________________
+![4](images/SSO/4-SSO.png)
+___________________________
+![5](images/SSO/5-SSO.png)
+______________________________
+![6](images/SSO/6-SSO.png)
+_______________________________
+![7](images/SSO/7-SSO.png)
+______________________________
+
+**Troubleshooting scenario:**
+User John Doe unable to access application via SSO due to removal from app assignment in Entra ID.
+
+Potential root causes: human error during admin cleanup, offboarding process gone wrong, group-based assignment changes.
+![8](images/SSO/8-SSO.png)
+
+See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troubleshooting-journal) for ITSM-style troubleshooting ticket
+
  
 </details>
 
