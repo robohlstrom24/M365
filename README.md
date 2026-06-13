@@ -13,6 +13,7 @@ This project showcases foundational Microsoft 365 (M365) skills modeled after an
 - SharePoint permissions management 
 - Entra B2B external identity and secure contractor access provisioning
 - M365 license troubleshooting via group-based license inheritance
+- Entra ID SSO Troubleshooting 
   
 ## Tier-2 Job Duties
 
@@ -194,13 +195,15 @@ Permissions inadvertantly assigned at the library-level instead of file-level, r
 </details>
 
 <details>
-  <summary>SSO Troubleshooting in Entra ID</summary>
+  <summary>Entra ID SSO (SAML/OIDC/Troubleshooting)</summary>
 
 This lab provided hands-on experience with CompTIA Security+ concepts, demonstrating how SSO is applied in real-world scenarios. 
 
 Tools Utilized:
 -Microsoft Entra ID (M365 Business Premium License) - IdP 
+
 -IAM Showcase (sptest.iamshowcase.com) - SAML 2.0 test SP that displays assertion contents after successful federation
+
 -OpenID Connect Debugger (oidcdebugger.com) - test tool for OIDC flows which captures the authorization code and token response
 
 **Lab Build:**
@@ -223,10 +226,17 @@ ______________________________
 **Troubleshooting scenario:**
 User John Doe unable to access application via SSO due to removal from app assignment in Entra ID.
 
-Potential root causes: human error during admin cleanup, offboarding process gone wrong, group-based assignment changes.
+**Potential root causes:** human error during admin cleanup, offboarding process gone wrong, group-based assignment changes.
 ![8](images/SSO/8-SSO.png)
 
 See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troubleshooting-journal) for ITSM-style troubleshooting ticket
+
+**Lessons Learned:**
+-SAML and OIDC enable SSO through different mechanisms: SAML uses XML assertions for legacy enterprise apps, whereas OIDC uses JSON-based ID tokens for modern web and mobile apps
+
+-Authentication and authorization are distinct layers: valid credentials don’t guarantee app access if assignment policy blocks the user downstream
+
+-Entra ID sign-in logs are the first tool to utilize when diagnosing SSO failures
 
  
 </details>
