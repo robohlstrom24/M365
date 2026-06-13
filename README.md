@@ -197,9 +197,11 @@ Permissions inadvertantly assigned at the library-level instead of file-level, r
 <details>
   <summary>Entra ID SSO (SAML/OIDC/Troubleshooting)</summary>
 
-This lab provided hands-on experience with CompTIA Security+ concepts, demonstrating how SSO is applied in real-world scenarios. 
+____________________________________________
+**This lab provided hands-on experience with CompTIA Security+ concepts, demonstrating how SSO is applied in real-world scenarios.** 
 
 Tools Utilized:
+
 -Microsoft Entra ID (M365 Business Premium License) - IdP 
 
 -IAM Showcase (sptest.iamshowcase.com) - SAML 2.0 test SP that displays assertion contents after successful federation
@@ -208,12 +210,17 @@ Tools Utilized:
 
 **Lab Build:**
 
+SAML Demonstration:
+
 ![1](images/SSO/1-SSO.png)
 _____________________________
 ![2](images/SSO/2-SSO.png)
 ___________________________
 ![3](images/SSO/3-SSO.png)
 ___________________________
+
+OIDC/OAuth Demonstration:
+
 ![4](images/SSO/4-SSO.png)
 ___________________________
 ![5](images/SSO/5-SSO.png)
@@ -232,6 +239,7 @@ User John Doe unable to access application via SSO due to removal from app assig
 See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troubleshooting-journal) for ITSM-style troubleshooting ticket
 
 **Lessons Learned:**
+
 -SAML and OIDC enable SSO through different mechanisms: SAML uses XML assertions for legacy enterprise apps, whereas OIDC uses JSON-based ID tokens for modern web and mobile apps
 
 -Authentication and authorization are distinct layers: valid credentials don’t guarantee app access if assignment policy blocks the user downstream
