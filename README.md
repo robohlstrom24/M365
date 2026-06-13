@@ -200,7 +200,7 @@ Permissions inadvertantly assigned at the library-level instead of file-level, r
 ____________________________________________
 **This lab provided hands-on experience with CompTIA Security+ concepts, demonstrating how SSO is applied in real-world scenarios.** 
 
-Tools Utilized:
+**Tools Utilized:**
 
 -Microsoft Entra ID (M365 Business Premium License) - IdP 
 
@@ -210,7 +210,7 @@ Tools Utilized:
 
 **Lab Build:**
 
-SAML Demonstration:
+**SAML Demonstration:**
 
 ![1](images/SSO/1-SSO.png)
 _____________________________
@@ -219,7 +219,7 @@ ___________________________
 ![3](images/SSO/3-SSO.png)
 ___________________________
 
-OIDC/OAuth Demonstration:
+**OIDC/OAuth Demonstration:**
 
 ![4](images/SSO/4-SSO.png)
 ___________________________
@@ -248,6 +248,8 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
  
 </details>
+
+___________________________________________________
 
 ## Tier-1 Job Duties
 
