@@ -193,6 +193,20 @@ Permissions inadvertantly assigned at the library-level instead of file-level, r
 
 </details>
 
+<details>
+  <summary>SSO Troubleshooting in Entra ID</summary>
+
+This lab provided hands-on experience with CompTIA Security+ concepts, demonstrating how SSO is applied in real-world scenarios. 
+
+Tools Utilized:
+-Microsoft Entra ID (M365 Business Premium License) - IdP 
+-IAM Showcase (sptest.iamshowcase.com) - SAML 2.0 test SP that displays assertion contents after successful federation
+-OpenID Connect Debugger (oidcdebugger.com) - test tool for OIDC flows which captures the authorization code and token response
+
+**Lab Build:**
+
+ 
+</details>
 
 ## Tier-1 Job Duties
 
