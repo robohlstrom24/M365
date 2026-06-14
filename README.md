@@ -242,7 +242,7 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
 -SAML and OIDC enable SSO through different mechanisms: SAML uses XML assertions for legacy enterprise apps, whereas OIDC uses JSON-based ID tokens for modern web and mobile apps
 
--Authentication and authorization are distinct layers: valid credentials don’t guarantee app access if assignment policy blocks the user downstream
+-Authentication and authorization are distinct layers: valid credentials don’t guarantee app access if something is blocking the user downstream
 
 -Entra ID sign-in logs are the first tool to utilize when investigating SSO failures
 
