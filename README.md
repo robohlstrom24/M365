@@ -221,7 +221,7 @@ ___________________________
 
 **OIDC/OAuth Demonstration:**
 
-![4](images/SSO/4-SSO.png)
+![4](images/SSO/4.1-SSO.png)
 ___________________________
 ![5](images/SSO/5-SSO.png)
 ______________________________
