@@ -244,7 +244,10 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
 -Authentication and authorization are distinct layers: valid credentials don’t guarantee app access if assignment policy blocks the user downstream
 
--Entra ID sign-in logs are the first tool to utilize when diagnosing SSO failures
+-Entra ID sign-in logs are the first tool to utilize when investigating SSO failures
+
+-An effective SSO diagnostic framework isolates the problem to the IdP side (account not assigned to the app, MFA failure, CA block) or the SP side (misconfigured Entity ID, ACS URL mismatch)
+
 
  
 </details>
