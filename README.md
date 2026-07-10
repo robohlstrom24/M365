@@ -254,7 +254,7 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
 <details>
   
-  <summary> Diagnosing email delivery failure (message trace) </summary>
+  <summary> Diagnosing Email Delivery Failure (Message Trace) </summary>
 
   **Lab Build: Distribution List creation and transport rule enforcement**
 
@@ -263,11 +263,14 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
   ![2](images/DL/2-MT.png)
   _____________________________
 
-  **Troubleshooting scenario: user sends email to company-all distribution list; email isn't delivered to recipients**
+  **Troubleshooting scenario: an employee sends an email to company-all distribution list. Recipients report they never received it — and the sender never saw a bounce-back**
 
   ![3](images/DL/3-MT.png)
   __________________________
   ![4](images/DL/4-MT.png)
+
+  **Note: Microsoft's auto-generated "How to fix it" guidance for the error was written for sender-side troubleshooting, not mentioning that resolution required moderator action. Following it as written could send an admin down the wrong path entirely. The event detail text, not the suggested fix, is what pointed to the real root cause.**
+  
   _________________________
   ![5](images/DL/5-MT.png)
   __________________________
@@ -279,7 +282,9 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
   **Lessons learned:**
 
--Status labels in diagnostic tools can look identical for very different root causes — a genuine bounce and a policy hold both surface as "Failed." Always read the event detail before concluding root cause; don't diagnose off the headline status
+-Distribution lists with many recipients are a high blast-radius target. Because SMTP relay is store-and-forward rather than instantaneous, Exchange Online can intercept a message mid-transit via transport rules
+
+-Status labels in Exchange message trace can look identical for very different root causes — a genuine bounce and a policy hold both surface as "Failed." Always read the event detail before concluding root cause; don't diagnose off the headline status
 
 -Built-in "fix it" guidance is written for the most common case, not necessarily aligned with the true root cause. Treat it as a starting hypothesis to verify, not a script to follow
 
