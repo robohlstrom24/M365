@@ -282,7 +282,7 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
   **Lessons learned:**
 
--Distribution lists with many recipients are a high blast-radius target. Because SMTP relay is store-and-forward rather than instantaneous, Exchange Online can intercept a message mid-transit via transport rules
+Distribution lists with many recipients are a high blast-radius target. Because SMTP relay is a store-and-forward mechanism rather than instantaneous delivery, Exchange Online can intercept a message mid-transit via transport rules
 
 -Status labels in Exchange message trace can look identical for very different root causes — a genuine bounce and a policy hold both surface as "Failed." Always read the event detail before concluding root cause; don't diagnose off the headline status
 
