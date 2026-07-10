@@ -13,6 +13,7 @@ This project showcases foundational Microsoft 365 (M365) skills modeled after an
 - SharePoint permissions management 
 - Entra B2B external identity and secure contractor access provisioning
 - M365 license troubleshooting via group-based license inheritance
+- Troubleshooting email delivery failure with message trace
 - Entra ID SSO Troubleshooting 
   
 ## Tier-2 Job Duties
@@ -248,10 +249,40 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 
 -An effective SSO diagnostic framework isolates the problem to the IdP side (account not assigned to the app, MFA failure, CA block) or the SP side (misconfigured Entity ID, ACS URL mismatch)
 
-
  
 </details>
 
+<details>
+  <summary> Diagnosing email delivery failure (message trace) </summary>
+
+  **Lab Build: Distribution List creation and transport rule enforcement**
+
+  ![1](images/DL/1-MT.png)
+  _____________________________
+  ![2](images/DL/2-MT.png)
+  _____________________________
+
+  **Troubleshooting scenario: user sends email to company-all distribution list; email isn't delivered to recipients**
+
+  ![3](images/DL/3-MT.png)
+  __________________________
+  ![4](images/DL/4-MT.png)
+  _________________________
+  ![5](images/DL/5-MT.png)
+  __________________________
+  
+  **Not shown: moderator approves email for distribution**
+
+  ![6](images/DL/6-MT.png)
+  ______________________________
+
+  **Lessons learned:**
+
+-Status labels in diagnostic tools can look identical for very different root causes — a genuine bounce and a policy hold both surface as "Failed." Always read the event detail before concluding root cause; don't diagnose off the headline status
+
+-Built-in "fix it" guidance is written for the most common case, not necessarily aligned with the true root cause. Treat it as a starting hypothesis to verify, not a script to follow
+
+</details>
 ___________________________________________________
 
 ## Tier-1 Job Duties
