@@ -253,6 +253,7 @@ See: [Troubleshooting Journal T-0019](https://github.com/robohlstrom24/troublesh
 </details>
 
 <details>
+  
   <summary> Diagnosing email delivery failure (message trace) </summary>
 
   **Lab Build: Distribution List creation and transport rule enforcement**
