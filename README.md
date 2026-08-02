@@ -315,7 +315,9 @@ ______________________________________
 ![3](images/email-auth/email-auth-3.png)
 _____________________________________
 Screenshots not shown:
+
 -DMARC policy authored manually (v=DMARC1; p=none; rua=mailto:mjones@rob-domain-homelab.it.com
+
 -TXT record published directly as _dmarc at the domain registrar → propagated and resolved
 _________________________________________________
 ![4](images/email-auth/email-auth-4.png)
