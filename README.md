@@ -299,9 +299,13 @@ __________________________________________________________________
 **Lab Build:**
 
 (screenshots not shown)
+
 -Custom domain acquired (Namecheap)
+
 -Domain name added in M365 admin center
+
 -Domain ownership verified: M365-generated TXT record added to domain registrar → successfully propagated and resolved  
+
 -M365 service records added to domain registrar to activate mail flow (MX for routing, CNAME for Autodiscover, SPF TXT) → successfully propagated and resolved
 
 ![1](images/email-auth/email-auth-1.png)
