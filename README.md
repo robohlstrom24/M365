@@ -292,9 +292,52 @@ Distribution lists with many recipients are a high blast-radius target. Because 
 
 <details>
   <summary>Exploring Email Authentication (SPF/DKIM/DMARC) and Troubleshooting Common Issues</summary>
-
-**This lab involved building and validating a custom domain, then exploring email authentication troubleshooting scenarios.** 
+__________________________________________________________________
   
+**This lab involved building and validating a custom domain, then exploring email authentication troubleshooting scenarios.** 
+
+**Lab Build:**
+
+(screenshots not shown)
+-Custom domain acquired (Namecheap)
+-Domain name added in M365 admin center
+-Domain ownership verified: M365-generated TXT record added to domain registrar → successfully propagated and resolved  
+-M365 service records added to domain registrar to activate mail flow (MX for routing, CNAME for Autodiscover, SPF TXT) → successfully propagated and resolved
+
+![1](images/email-auth/email-auth-1.png)
+______________________________________
+![2](images/email-auth/email-auth-2.png)
+______________________________________
+![3](images/email-auth/email-auth-3.png)
+_____________________________________
+Screenshots not shown:
+-DMARC policy authored manually (v=DMARC1; p=none; rua=mailto:mjones@rob-domain-homelab.it.com
+-TXT record published directly as _dmarc at the domain registrar → propagated and resolved
+_________________________________________________
+![4](images/email-auth/email-auth-4.png)
+______________________________________
+![5](images/email-auth/email-auth-5.png)
+_____________________________________
+-Subsequent screenshots represent diagnostic entry points that an IT Support tech would check for email authentication troubleshooting 
+-Each screenshot maps to a distinct symptom, not a fixed step-by-step sequence
+____________________________________________
+![6](images/email-auth/email-auth-6.png)
+______________________________________
+![7](images/email-auth/email-auth-7.png)
+______________________________________
+![8](images/email-auth/email-auth-8.png)
+_____________________________________
+![9](images/email-auth/email-auth-9.png)
+_____________________________________
+
+**Lessons Learned:**
+
+-DNS serves as the foundation for email authentication through TXT/CNAME records that carry authorization lists (SPF), cryptographic public keys (DKIM), and enforcement policy (DMARC)
+
+-Troubleshooting email authentication isn't a single checklist: different symptoms lead to different approaches (third-party DNS lookups, Defender Portal, email message headers)
+
+-Delivery and authentication are separate concerns. Exchange Message Trace confirms a message was processed and handed off to the recipient's server, not that it passed SPF/DKIM/DMARC
+
 </details>
 ___________________________________________________
 
