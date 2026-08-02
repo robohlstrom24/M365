@@ -197,7 +197,7 @@ Permissions inadvertantly assigned at the library-level instead of file-level, r
 </details>
 
 <details>
-  <summary>Entra ID SSO (SAML/OIDC/Troubleshooting)</summary>
+  <summary>Exploring Entra ID SSO (SAML/OIDC/OAuth) and Troubleshooting Common Issues</summary>
 
 ____________________________________________
 **This lab provided hands-on experience with CompTIA Security+ concepts, demonstrating how SSO is applied in real-world scenarios.** 
