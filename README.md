@@ -298,7 +298,7 @@ __________________________________________________________________
 
 **Lab Build:**
 
-(screenshots not shown)
+Screenshots not shown:
 
 -Custom domain acquired (Namecheap)
 
@@ -314,6 +314,7 @@ ______________________________________
 ______________________________________
 ![3](images/email-auth/email-auth-3.png)
 _____________________________________
+
 Screenshots not shown:
 
 -DMARC policy authored manually (v=DMARC1; p=none; rua=mailto:mjones@rob-domain-homelab.it.com
@@ -324,8 +325,9 @@ _________________________________________________
 ______________________________________
 ![5](images/email-auth/email-auth-5.png)
 _____________________________________
--Subsequent screenshots represent diagnostic entry points that an IT Support tech would check for email authentication troubleshooting 
--Each screenshot maps to a distinct symptom, not a fixed step-by-step sequence
+
+**Subsequent screenshots represent diagnostic entry points that an IT Support tech would check for email authentication troubleshooting** 
+
 ____________________________________________
 ![6](images/email-auth/email-auth-6.png)
 ______________________________________
