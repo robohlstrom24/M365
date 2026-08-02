@@ -289,6 +289,13 @@ Distribution lists with many recipients are a high blast-radius target. Because 
 -Built-in "fix it" guidance is written for the most common case, not necessarily aligned with the true root cause. Treat it as a starting hypothesis to verify, not a script to follow
 
 </details>
+
+<details>
+  <summary>Exploring Email Authentication (SPF/DKIM/DMARC) and Troubleshooting Common Issues</summary>
+
+**This lab involved building and validating a custom domain, then exploring email authentication troubleshooting scenarios.** 
+  
+</details>
 ___________________________________________________
 
 ## Tier-1 Job Duties
