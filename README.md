@@ -14,7 +14,8 @@ This project showcases foundational Microsoft 365 (M365) skills modeled after an
 - Entra B2B external identity and secure contractor access provisioning
 - M365 license troubleshooting via group-based license inheritance
 - Troubleshooting email delivery failure with message trace
-- Entra ID SSO Troubleshooting 
+- Entra ID SSO Troubleshooting
+- Email authentication troubleshooting 
   
 ## Tier-2 Job Duties
 
